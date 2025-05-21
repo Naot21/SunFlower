@@ -1,0 +1,16 @@
+[images]
+  remote_images = ["https://source.unsplash.com/.*", "https://images.unsplash.com/.*", "https://ext.same-assets.com/.*", "https://ugc.same-assets.com/.*"]
+
+[build]
+  # Directory to change to before starting a build.
+  base = "/"
+  # Directory that contains the deploy-ready files
+  publish = "dist"
+  # Build command
+  command = "bun run build"
+
+# Redirect and rewrite rules to support SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

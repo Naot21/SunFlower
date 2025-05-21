@@ -1,0 +1,42 @@
+/* Tùy chỉnh thông báo toast */
+.Toastify__toast-container {
+    width: 400px; /* Tăng chiều rộng */
+  }
+  
+  .Toastify__toast {
+    font-size: 18px; /* Tăng kích thước chữ */
+    padding: 16px 24px; /* Tăng padding cho toast to hơn */
+    border-radius: 12px; /* Bo góc mềm hơn */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Thêm bóng nhẹ */
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; /* Font dễ đọc */
+    line-height: 1.5; /* Tăng khoảng cách dòng */
+  }
+  
+  .Toastify__toast--success {
+    background-color: #10b981; /* Màu xanh Tailwind green-500 */
+    color: white;
+  }
+  
+  .Toastify__toast--error {
+    background-color: #ef4444; /* Màu đỏ Tailwind red-500 */
+    color: white;
+  }
+  
+  .Toastify__toast-body {
+    margin: 0; /* Xóa margin mặc định */
+    padding: 4px 0; /* Thêm padding nhẹ */
+  }
+  
+  .Toastify__progress-bar {
+    height: 4px; /* Thanh tiến trình mỏng hơn */
+    background-color: rgba(255, 255, 255, 0.7); /* Màu trắng mờ cho thanh tiến trình */
+  }
+  
+  .Toastify__close-button {
+    color: white;
+    opacity: 0.8;
+  }
+  
+  .Toastify__close-button:hover {
+    opacity: 1;
+  }
